@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgGrad)"/>
+  <circle cx="700" cy="80" r="180" fill="#00f2fe" opacity="0.08" filter="blur(40px)"/>
+  <circle cx="100" cy="380" r="200" fill="#4facfe" opacity="0.08" filter="blur(50px)"/>
+
+  <!-- Browser Window Frame -->
+  <rect x="40" y="30" width="720" height="390" rx="16" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Window Header Bar -->
+  <path d="M 40 46 A 16 16 0 0 1 56 30 L 744 30 A 16 16 0 0 1 760 46 L 760 70 L 40 70 Z" fill="#1e293b"/>
+  <circle cx="65" cy="50" r="6" fill="#ef4444"/>
+  <circle cx="85" cy="50" r="6" fill="#f59e0b"/>
+  <circle cx="105" cy="50" r="6" fill="#10b981"/>
+
+  <!-- Search Bar Simulation -->
+  <rect x="250" y="40" width="300" height="20" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="270" y="54" fill="#64748b" font-family="sans-serif" font-size="10">Search products, inventory...</text>
+
+  <!-- Header Navigation -->
+  <text x="70" y="105" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="16">EcoStore Digital Platform</text>
+  <text x="70" y="122" fill="#00f2fe" font-family="sans-serif" font-size="11">Django &amp; MySQL Full-Stack Architecture</text>
+  
+  <!-- Cart Badge -->
+  <rect x="670" y="90" width="70" height="30" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
+  <text x="685" y="110" fill="#38bdf8" font-family="sans-serif" font-weight="bold" font-size="12">🛒 Cart (3)</text>
+
+  <!-- Main Content Grid -->
+  <!-- Sidebar Menu -->
+  <rect x="70" y="140" width="160" height="250" rx="12" fill="url(#cardGrad)" stroke="#1e293b"/>
+  <text x="85" y="165" fill="#94a3b8" font-family="sans-serif" font-size="11" font-weight="bold">CATEGORIES</text>
+  
+  <rect x="80" y="175" width="140" height="24" rx="6" fill="#00f2fe" opacity="0.15"/>
+  <text x="95" y="191" fill="#00f2fe" font-family="sans-serif" font-size="11" font-weight="bold">Electronics &amp; Gadgets</text>
+  <text x="95" y="215" fill="#64748b" font-family="sans-serif" font-size="11">Apparel &amp; Fashion</text>
+  <text x="95" y="235" fill="#64748b" font-family="sans-serif" font-size="11">Home Accessories</text>
+  <text x="95" y="255" fill="#64748b" font-family="sans-serif" font-size="11">Books &amp; Media</text>
+
+  <!-- Admin Sales Widget -->
+  <rect x="80" y="280" width="140" height="95" rx="8" fill="#090d16" stroke="#334155"/>
+  <text x="90" y="300" fill="#94a3b8" font-family="sans-serif" font-size="10">TOTAL SALES (MYSQL)</text>
+  <text x="90" y="322" fill="#10b981" font-family="sans-serif" font-size="18" font-weight="bold">$12,480.00</text>
+  <path d="M 90 355 Q 120 340 140 348 T 190 330 T 210 340" fill="none" stroke="#10b981" stroke-width="2"/>
+
+  <!-- Product Cards Grid -->
+  <!-- Product Card 1 -->
+  <rect x="250" y="140" width="150" height="250" rx="12" fill="url(#cardGrad)" stroke="#1e293b"/>
+  <rect x="260" y="150" width="130" height="110" rx="8" fill="#090d16"/>
+  <!-- Headphones Graphic -->
+  <circle cx="325" cy="205" r="30" fill="none" stroke="#00f2fe" stroke-width="4"/>
+  <rect x="290" y="195" width="12" height="25" rx="4" fill="#00f2fe"/>
+  <rect x="348" y="195" width="12" height="25" rx="4" fill="#00f2fe"/>
+  <text x="265" y="280" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">Wireless Audio Pro</text>
+  <text x="265" y="295" fill="#94a3b8" font-family="sans-serif" font-size="10">High-fidelity sound</text>
+  <text x="265" y="320" fill="#00f2fe" font-family="sans-serif" font-size="14" font-weight="bold">$149.99</text>
+  <rect x="265" y="340" width="120" height="30" rx="6" fill="url(#accentGrad)"/>
+  <text x="300" y="360" fill="#0f172a" font-family="sans-serif" font-size="11" font-weight="bold">Add To Cart</text>
+
+  <!-- Product Card 2 -->
+  <rect x="420" y="140" width="150" height="250" rx="12" fill="url(#cardGrad)" stroke="#1e293b"/>
+  <rect x="430" y="150" width="130" height="110" rx="8" fill="#090d16"/>
+  <!-- Smartwatch Graphic -->
+  <rect x="480" y="170" width="30" height="70" rx="6" fill="#334155"/>
+  <rect x="475" y="185" width="40" height="40" rx="8" fill="#1e293b" stroke="#818cf8" stroke-width="2"/>
+  <circle cx="495" cy="205" r="12" fill="none" stroke="#818cf8" stroke-width="2"/>
+  <text x="435" y="280" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">Smart Watch Ultra</text>
+  <text x="435" y="295" fill="#94a3b8" font-family="sans-serif" font-size="10">Health &amp; GPS tracker</text>
+  <text x="435" y="320" fill="#818cf8" font-family="sans-serif" font-size="14" font-weight="bold">$229.00</text>
+  <rect x="435" y="340" width="120" height="30" rx="6" fill="#818cf8"/>
+  <text x="470" y="360" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Add To Cart</text>
+
+  <!-- Product Card 3 -->
+  <rect x="590" y="140" width="150" height="250" rx="12" fill="url(#cardGrad)" stroke="#1e293b"/>
+  <rect x="600" y="150" width="130" height="110" rx="8" fill="#090d16"/>
+  <!-- Laptop Graphic -->
+  <rect x="635" y="180" width="60" height="40" rx="4" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+  <path d="M 625 220 L 705 220 L 695 225 L 635 225 Z" fill="#334155"/>
+  <text x="605" y="280" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">Developer Pro Book</text>
+  <text x="605" y="295" fill="#94a3b8" font-family="sans-serif" font-size="10">M-Series 16GB RAM</text>
+  <text x="605" y="320" fill="#10b981" font-family="sans-serif" font-size="14" font-weight="bold">$1,199.00</text>
+  <rect x="605" y="340" width="120" height="30" rx="6" fill="url(#emeraldGrad)"/>
+  <text x="640" y="360" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Add To Cart</text>
+
+</svg>
